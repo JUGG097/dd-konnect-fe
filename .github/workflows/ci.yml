@@ -3,10 +3,11 @@ name: UI CI
 on:
   pull_request:
     branches:
-      - main
+      - [main, dev]
   push:
     branches:
-      - main
+      - [main, dev]
+
 
 jobs:
   lint:
